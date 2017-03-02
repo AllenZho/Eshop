@@ -1,0 +1,173 @@
+#header{
+    height: 170px;
+}
+#header .contWidth{
+    width: 990px;
+    height: 105px;
+    margin: 0 auto;
+}
+.header-top{
+    position: relative;
+    height: 105px;
+}
+.header-logo{
+    float: left;
+    margin: 10px 0 0 10px;
+    height: 88px;
+    width: 291px;
+
+}
+.header-logo h1{
+    font-style: italic;
+    font-size: 400%;
+}
+#inputSearch{
+    position: absolute;
+    left: 330px;
+    top: 70px;
+    color: #c6bcbc;
+}
+#skin{
+    float: right;
+    margin: 60px 30px;
+    padding: 4px;
+    width: 150px;
+}
+#skin li{
+    float: left;
+    height: 15px;
+    width: 15px;
+    display: block;
+    cursor: pointer;
+    margin-right: 8px;
+}
+#skin_0{
+    background:#f05c1a;
+}
+#skin_1{
+    background:#ed1af0;
+}
+#skin_2{
+    background:#f0ed1a;
+}
+#skin_3{
+    background:#42e14d;
+}
+#skin_4{
+    background:#5433e1;
+}
+#skin_5{
+    background: #6f6565;
+}
+.selected{
+    height: 20px;
+    width: 20px;
+    border: 2px solid;
+}
+.mainNav{
+    height: 50px;
+}
+.mainNav .first{
+    float: left;
+    position: relative;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    margin-top: 15px;
+}
+.mainNav .first a{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+.mainNav .first ul{
+    position: absolute;
+    list-style: none;
+    z-index: 2;
+    background: #fff;
+    width: 500px;
+    height: 170px;
+    border: 1px solid #f0ed1a;
+    display: none;
+}
+.mainNav .first ul li {
+    margin: 5px 0;
+    clear: both;
+    width: auto;
+    height: auto;
+
+}
+.mainNav .first .hr{
+    border-bottom: 1px dashed #ccc;
+    width: 460px;
+    margin-left: 20px;
+}
+.mainNav .first ul li a{
+    color: #000;
+    font-size: 13px;
+    border-right: 1.5px #ccc solid;
+    padding: 5px 10px;
+    display: block;
+    float: left;
+    margin: 5px 0;
+}
+.mainNav .first ul li h5{
+    font-size: 150%;
+    height: 50px;
+    width: 60px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.content{
+    height: 600px;
+    width: 990px;
+    margin: 0 auto;
+}
+.allProducts{
+    float: left;
+    height: inherit;
+    width: 200px;
+}
+.allProducts-header{
+    height: 40px;
+    margin-bottom: 20px;
+
+}
+.allProducts-header span{
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    padding: 8px;
+}
+.allProducts h5{
+    margin: 0px 0 10px 20px;
+    display: block;
+    clear: both;
+}
+.allProducts ul{
+    margin-left: 20px;
+    height: 100px;
+}
+.allProducts li{
+    float: left;
+    position: relative;
+    width: 70px;
+    margin-bottom: 5px;
+}
+.allProducts li .hot{
+    position: absolute;
+    top: -5px;
+    color: #fff;
+    font-weight: bold;
+    height: 18px;
+    width: 20px;
+    background:#f05c1a;
+    border-radius: 8px;
+}
+.footer{
+    height: 20px;
+    text-align: center;
+    margin-top: 10px;
+    clear: both;
+}

@@ -1,0 +1,110 @@
+.banner{
+    margin-left: 20px;
+    width: 500px;
+    float: left;
+}
+.container{
+    position: relative;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+}
+.bannerList{
+    position: absolute;
+    width: 2500px;
+    z-index: 1;
+}
+.bannerList img{
+    float: left;
+    z-index: 1;
+}
+#bannerSub{
+    height: 50px;
+}
+#bannerSub a{
+    display: block;
+    float: left;
+    height: 50px;
+    text-align: center;
+    padding-top: 8px;
+    background: #6f6565;
+    text-decoration: none;
+
+}
+#bannerSub a em{
+    display: block;
+    width: 100px;
+    height: 20px;
+    color: #fff;
+    font-weight: bold;
+
+}
+.recommend{
+    float: right;
+}
+.news{
+    float: left;
+    margin: 20px 0 0 20px;
+}
+.news li{
+    margin-top: 8px;
+}
+ #toolTip{
+     position: absolute;
+     padding: 3px;
+     display: none;
+     background: #fff;
+}
+.news li a h6{
+    display: inline;
+}
+.brandList{
+   float: left;
+    width: 750px;
+    margin-left: 20px;
+}
+.brandList-header{
+    height: 30px;
+}
+.brandList-header h5{
+    float: left;
+    margin-top: 10px;
+}
+.brandList-header ul{
+    float: right;
+    margin-top: 10px;
+}
+.brandList-header ul li{
+    float: left;
+    width: 40px;
+    margin-right: 10px;
+    text-align: center;
+    background: #fff;
+}
+.containerSecond{
+    position: relative;
+    overflow: hidden;
+    width: 748px;
+    height: 230px;
+}
+.product-list{
+    position: absolute;
+    clear: left;
+    margin-top: 10px;
+    width: 2992px;
+}
+.product-list a{
+    display: block;
+    float: left;
+    position: relative;
+}
+.product-list span{
+    display: block;
+    text-align: center;
+    clear: left;
+}
+.imgMask:hover{
+    background: url("../images/bigger.png")no-repeat 50% 50%;
+    filter: alpha(opacity:60);
+    opacity: 0.8;
+}

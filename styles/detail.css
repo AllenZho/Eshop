@@ -1,0 +1,90 @@
+.productDetail{
+    float: left;
+    margin-left: 20px;
+}
+.productDetail button{
+    display: block;
+    margin: 8px auto;
+}
+.information{
+    margin-top: 10px;
+}
+.information li{
+    float: left;
+    margin-right: 5px;
+    border: 1px dashed;
+    background: #c6bcbc;
+}
+.textInformation{
+    clear: both;
+    width: 340px;
+    height: 100px;
+    border: 1px solid;
+}
+.selectProduct{
+    float: left;
+    margin-left: 20px;
+    width: 400px;
+    height: 500px;
+}
+.selectProduct{
+    line-height: 25px;
+    font-size: 14px;
+}
+.selectProduct p{
+    display: block;
+}
+.selectProduct h4{
+    font-size: 180%;
+}
+.selectProduct .oldPrice i{
+    text-decoration: line-through;
+}
+.selectProduct .newPrice i{
+    font-size: 20px;
+    font-weight: bold;
+    color: #d16022;
+}
+.color li{
+    float: left;
+    height: 30px;
+    width: 30px;
+    background: #ccc;
+    margin-right: 20px;
+    margin-top: 5px;
+    clear: right;
+}
+.size{
+    clear: both;
+}
+.size li{
+    float: left;
+    height: 25px;
+    width:25px;
+    border: 1px solid;
+    margin-right: 20px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 13px;
+}
+.num{
+    clear: both;
+}
+.star{
+    height: 17px;
+    display: block;
+}
+.star span{
+    display: block;
+    float: left;
+    height: 13px;
+    width: 13px;
+    border-radius: 100%;
+    border: 1px solid;
+    margin-right: 5px;
+}
+.productCar{
+    display: block;
+    clear: both;
+    margin-top: 10px;
+}

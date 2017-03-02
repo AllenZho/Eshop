@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Jane Shopping</title>
+    <link rel="stylesheet" href="styles/reset.css"/>
+    <link rel="stylesheet" href="styles/common.css"/>
+    <link rel="stylesheet" href="styles/detail.css"/>
+    <link rel="stylesheet" href="skin/skin_0.css" id="cssFile"/>
+    <script src="scripts/jquery-1.12.3.min.js"></script>
+    <script src="scripts/jquery-ui.min.js"></script>
+    <script src="scripts/jquery.cookie.js"></script>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/jqzoom.js"></script>
+    <script src="scripts/detail.js"></script>
+</head>
+<body>
+<div id="header">
+    <div class="contWidth">
+        <div class="header-top">
+            <div class="header-logo"><h1>Jane&nbsp;Shop</h1></div>
+            <div class="search">
+                <input type="text" id="inputSearch" value="请输入商品名称"/>
+            </div>
+            <ul id="skin">
+                <li id="skin_0" class="selected"><a href=""></a></li>
+                <li id="skin_1"><a href=""></a></li>
+                <li id="skin_2"><a href=""></a></li>
+                <li id="skin_3"><a href=""></a></li>
+                <li id="skin_4"><a href=""></a></li>
+                <li id="skin_5"><a href=""></a></li>
+            </ul>
+        </div>
+        <div class="mainNav" id="header-nav">
+            <ul>
+                <li class="first"><a href="">首页</a></li>
+                <li class="first"><a href="">推荐品牌</a>
+                    <ul>
+                        <li><h5>品牌:</h5><a href="">耐克</a><a href="">阿迪达斯</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">阿迪达斯</a><a href="">耐克</a><a href="">达芙妮</a><a href="">耐克</a><a href="">耐克</a></li>
+                        <li class="hr"></li>
+                        <li><h5></h5><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a></li>
+                    </ul>
+                </li>
+                <li class="first"><a href="">男装</a>
+                    <ul>
+                        <li><h5>品牌:</h5><a href="">耐克</a><a href="">阿迪达斯</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">阿迪达斯</a><a href="">耐克</a><a href="">达芙妮</a><a href="">耐克</a><a href="">耐克</a></li>
+                        <li class="hr"></li>
+                        <li><h5></h5><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a></li>
+                    </ul>
+                </li>
+                <li class="first"><a href="">女装</a>
+                    <ul>
+                        <li><h5>品牌:</h5><a href="">耐克</a><a href="">阿迪达斯</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">阿迪达斯</a><a href="">耐克</a><a href="">达芙妮</a><a href="">耐克</a><a href="">耐克</a></li>
+                        <li class="hr"></li>
+                        <li><h5></h5><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a></li>
+                    </ul>
+                </li>
+                <li class="first"><a href="">鞋包配饰</a>
+                    <ul>
+                        <li><h5>品牌:</h5><a href="">耐克</a><a href="">阿迪达斯</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">阿迪达斯</a><a href="">耐克</a><a href="">达芙妮</a><a href="">耐克</a><a href="">耐克</a></li>
+                        <li class="hr"></li>
+                        <li><h5></h5><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a><a href="">耐克</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="content">
+    <div class="allProducts">
+        <div class="allProducts-header"><span><strong>商品分类</strong></span></div>
+        <h5>推荐品牌</h5>
+        <ul>
+            <li class="promoted"><a href="">耐克</a></li>
+            <li><a href="">阿迪达斯</a></li>
+            <li><a href="">达芙妮</a></li>
+            <li class="promoted"><a href="">李宁</a></li>
+            <li><a href="">达芙妮</a></li>
+            <li><a href="">达芙妮</a></li>
+            <li><a href="">达芙妮</a></li>
+            <li><a href="">达芙妮</a></li>
+        </ul>
+        <h5>推荐品牌</h5>
+        <ul>
+            <li class="promoted"><a href="">耐克</a></li>
+            <li><a href="">阿迪达斯</a></li>
+            <li><a href="">达芙妮</a></li>
+            <li><a href="">李宁</a></li>
+            <li><a href="">达芙妮</a></li>
+            <li><a href="">达芙妮</a></li>
+            <li><a href="">达芙妮</a></li>
+            <li><a href="">达芙妮</a></li>
+        </ul>
+        <h5>推荐品牌</h5>
+        <ul>
+            <li><a href="">耐克</a></li>
+            <li class="promoted"><a href="">阿迪达斯</a></li>
+            <li><a href="">达芙妮</a></li>
+            <li><a href="">李宁</a></li>
+            <li><a href="">达芙妮</a></li>
+            <li><a href="">达芙妮</a></li>
+            <li><a href="">达芙妮</a></li>
+            <li><a href="">达芙妮</a></li>
+        </ul>
+        <h5>推荐品牌</h5>
+        <ul>
+            <li><a href="">耐克</a></li>
+            <li><a href="">阿迪达斯</a></li>
+            <li><a href="">达芙妮</a></li>
+            <li><a href="">李宁</a></li>
+            <li><a href="">达芙妮</a></li>
+            <li><a href="">达芙妮</a></li>
+            <li><a href="">达芙妮</a></li>
+            <li><a href="">达芙妮</a></li>
+        </ul>
+    </div>
+    <div class="productDetail">
+        <div class="photo">
+            <div class="big">
+                <img src="images/detail.jpg" alt=""/>
+                <button class="bigger">点击放大图片</button>
+            </div>
+            <div class="small">
+                <img src="images/smallDetail.jpg" alt=""/>
+                <img src="images/smallDetail.jpg" alt=""/>
+                <img src="images/smallDetail.jpg" alt=""/>
+            </div>
+        </div>
+        <div class="information">
+            <ul>
+                <li><a href="">产品属性</a></li>
+                <li><a href="">产品尺码表</a></li>
+                <li><a href="">产品介绍</a></li>
+            </ul>
+            <div class="textInformation">
+                <p>实现方式：1、黑色颜色填充，各种方法下透明设置，ok实现效果（之前整理的代码提及到），但是加上文字后，发现文字也变透明了，（依照上面所说）背景来个rgb颜色，但是浏览器不兼容（现在没有找到合适的方法</p>
+            </div>
+        </div>
+    </div>
+    <div class="selectProduct">
+        <h4>免烫高支棉条纹衬衫</h4>
+        <p><strong>实现方式：1、黑色颜色填充，各种方法下透明设置，ok实现效果（之前整理的代码提及到），但是加上文字后，发现文字也变透明了，（依照上面所说）背景来个rgb颜色，但是浏览器不兼容（现在没有找到合适的方法</strong></p>
+        <p class="oldPrice"><span>价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格：</span><i>669.00</i>&nbsp;元</p>
+        <p class="newPrice"><span>促&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;销：</span><i>200.00</i>&nbsp;&nbsp;元</p>
+        <p><span>颜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;色：</span><i>蓝 白</i></p>
+        <ul class="color">
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+        </ul>
+        <p class="size"><span>尺&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;寸：</span><i>未选择</i></p>
+        <ul class="size">
+            <li><a href="">S</a></li>
+            <li><a href="">L</a></li>
+            <li><a href="">XL</a></li>
+            <li><a href="">XXL</a></li>
+        </ul>
+        <p class="num"><span>数&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;量：</span></p>
+        <select name="number" id="">
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+        </select>
+        <p><span>总&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;计：</span><i>200元</i></p>
+        <p>给商品评分：</p>
+        <p class="star"><span></span><span></span><span></span><span></span><span></span></p>
+        <button class="productCar">放入购物车</button>
+    </div>
+</div>
+<div class="footer">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+</div>
+</body>
+</html>

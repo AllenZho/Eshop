@@ -1,0 +1,30 @@
+.mainNav{
+     background:#f0ed1a;
+ }
+.mainNav .first ul{
+    border:1px solid #f0ed1a;
+ }
+.allProducts-header{
+    background:#f0ed1a;
+}
+#bannerSub a{
+    background:#f0ed1a;
+}
+.allProducts li .hot{
+    background:#f0ed1a;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #f0ed1a;
+}
+.focus{
+    border: 2px solid #f0ed1a;
+}
+a:hover{
+    color: #f0ed1a;
+}
+#toolTip{
+    border: 1px solid #f0ed1a;
+}
+.chang{
+    border: 1px solid #f0ed1a;
+}
